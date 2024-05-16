@@ -6,6 +6,11 @@
   --menu-highlight-hover: rgb(0, 0, 0);
 }
 
+img.header-logo {
+  width: 212px;
+  height: auto;
+}
+
 * {
   /* leave this on - it helps size things consistently */
   box-sizing: content-box;
