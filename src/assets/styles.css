@@ -9,7 +9,10 @@ a {
     color:#ff4613;
  }
 
-  
+.logo {
+    width: 212px;
+    height: auto;
+}
   
   body {
     background-color: #f7f2ef;
