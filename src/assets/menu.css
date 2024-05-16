@@ -123,6 +123,7 @@ img.header-logo {
   border: none;
   background: transparent;
   z-index: 1000;
+  color:#ff4613; 
 }
 .btn-toggle-menu:hover {
   background-color: white;

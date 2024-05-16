@@ -659,10 +659,10 @@ a {
   }
   
   footer {
-    background-color: #ff4613;
+    background-color: #ff461300;
     color: white;
     padding: 20px;
-    position: fixed;
+    position: static;
     display: block;
     left: 0;
     bottom: 0;
@@ -670,6 +670,13 @@ a {
     text-align: center;
     flex: 1 0 auto;
     flex-shrink: 0;
+  }
+
+  p {
+    font-family: livvic;
+    color: #ff4613;
+    font-size: 24px;
+    font-weight: 700;
   }
   
   .footer-nav {
