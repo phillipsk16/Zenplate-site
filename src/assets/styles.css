@@ -162,7 +162,12 @@ btn-toggle:hover {
   }
 }
 
-h4 {
+h4 a {
+  padding: 20px; /* Adjust the padding as needed */
+  margin: 0 auto; /* Center the h4 element */
+  max-width: 90%; /* Set a maximum width to prevent stretching on larger screens */
+  text-align: center; /* Center the text horizontally */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
   font-family: Livvic;
   display: flex;
   flex-direction: center;
@@ -170,12 +175,11 @@ h4 {
   font-size: 48px;
   background-color: #ff4613;
   color: #f7f2ef;
-  padding-left: 550px;
-  padding-right: 550px;
-  padding-bottom: 200px;
-  margin-bottom: 10px;
-  margin-top: 0;
-  background-clip: content-box;
+  text-decoration: none;
+}
+
+h4 a:hover {
+  color: #000;
 }
 
 @media (max-width: 600px) {
@@ -208,15 +212,19 @@ h4 {
   height: 500px;
 }
 
-.hero__content span {
+.hero__content span a {
   display: inline-block;
   padding: 0 90px;
   margin-bottom: 20px;
   border-radius: 5px;
 
   color: white;
-
+  text-decoration: none;
   box-shadow: -1px -5px 20px 0px rgba(0, 0, 0, 0.3);
+}
+
+.hero__content span a:hover {
+    color:#000;
 }
 
 .hero__content h1 span {
@@ -716,14 +724,13 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-
 }
 
 .top-image {
-    max-width: 500px;
-    height: auto;
-    display: block;
-    margin: 0 auto;
+  max-width: 500px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 .page-two-newest-recipes {
