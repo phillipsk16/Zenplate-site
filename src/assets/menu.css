@@ -2,8 +2,8 @@
   /* this is the height of the header bar */
   --header-height: 130px;
   /* this is the background color of the header bar and panel */
-  --menu-bg: #9ae9cf;
-  --menu-highlight-hover: white;
+  --menu-bg: #f7f2ef;
+  --menu-highlight-hover: rgb(0, 0, 0);
 }
 
 * {
