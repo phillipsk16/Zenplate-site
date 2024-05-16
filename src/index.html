@@ -1,21 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-  {% include 'head', title:'My Homepage' %}
+  {% include 'head', title:'ZenPlate' %}
   <body class="home">
     {% include 'header' %}
     <main id="main-content">
-      <h1>Home</h1>
-      <img
-        src="/assets/sample-img.jpg"
-        alt="A pizza"
-        style="max-width: 700px"
-      />
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt quo
-        amet voluptate quis doloremque harum. Omnis esse atque, mollitia
-        consequatur dolore dicta ratione, dignissimos sunt molestias earum
-        obcaecati! Accusantium, ipsam.
-      </p>
+     
+            <section class="hero">
+                <div class="hero__container">
+                    <div class="hero__content">
+                        <h1>
+                            <span>Welcome!</span>
+                        </h1>
+                    </div>
+                </div>
+            </section>
+
+            <section class="recipes-list">
+                <div class="container">
+                    <div class="recipes-list__heading">
+                        <h2 class="recipes-list__title">Newest Recipes</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-easing="ease-in-out"
+                        data-aos-delay="100">
+                        <div class="recipes-list__item">
+                            <img src="https://images.unsplash.com/photo-1632552544460-055cff0d29a5?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                            <div class="recipes-list__info-background">
+                                <div class="recipes-list__info">
+                                    <h3>Smash Burger</h3>
+                                    <div class="recipes-list__rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-easing="ease-in-out"
+                        data-aos-delay="200">
+                        <div class="recipes-list__item">
+                            <img src="https://images.unsplash.com/photo-1594053045614-f4ed95b84b9a?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                            <div class="recipes-list__info-background">
+                                <div class="recipes-list__info">
+                                    <h3>Smoothie Bowl</h3>
+                                    <div class="recipes-list__rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-easing="ease-in-out"
+                        data-aos-delay="300">
+                        <div class="recipes-list__item">
+                            <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                            <div class="recipes-list__info-background">
+                                <div class="recipes-list__info">
+                                    <h3>Salmon Salad</h3>
+                                    <div class="recipes-list__rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            <section>
+                <h4>View All Recipes</h4>
+            </section>  
     </main>
     {% include 'footer' %}
   </body>
