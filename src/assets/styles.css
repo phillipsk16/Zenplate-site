@@ -708,6 +708,24 @@ body {
   line-height: normal;
 }
 
+.page-three-about {
+  color: #ff4613;
+  text-align: center;
+  font-family: Livvic;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+}
+
+.top-image {
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
 .page-two-newest-recipes {
   color: #000;
   text-align: left;
@@ -718,4 +736,44 @@ body {
   font-weight: 700;
   line-height: normal;
   padding-left: 16px;
+}
+
+.pagination {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.pagination ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.pagination ul li {
+  margin: 0 5px;
+  background-color: #ff4613;
+}
+
+.pagination ul li a {
+  text-decoration: none;
+  color: #fefefe;
+  padding: 5px 10px;
+  font-size: 40px;
+}
+
+.pagination ul li a:hover {
+  background-color: #000000;
+}
+
+.about-me-text {
+  color: #000;
+  font-family: Livvic;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 160px;
+  padding-right: 160px;
 }
