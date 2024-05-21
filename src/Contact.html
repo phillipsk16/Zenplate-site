@@ -6,45 +6,31 @@
     <main id="main-content">
 
       <h1 class="page-two-recipes">CONTACT</h1>
-      <section class="contact">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-lg-8" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-delay="0">
-                        <h2 class="contact__title">Leave a comment</h2>
-                        <form class="contact__form">
-                            <div class="row">
-                                <div class="col-12 col-md-6 col-lg-6">
-                                    <div class="form-group">
-                                        <input required type="text" class="conatact__form-name" placeholder="Name">
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-6 col-lg-6">
-                                    <div class="form-group">
-                                        <input required type="email" class="contact__form-email" placeholder="E-mail">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="form-group">
-                                        <input type="text" class="contact__form-subject" placeholder="Subject">
-                                    </div>
-
-                                    <div class="form-group">
-                                        <textarea required class="contact__form-message" name="subject" id="subject"
-                                            cols="30" rows="10" placeholder="Message"></textarea>
-                                    </div>
-
-                                    <div class="form-group">
-                                        <button class="contact__form-btn">Send</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
+      
+<div class="container2">
+    <h2>Get in touch!</h2>
+    <form action="#" method="post">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Send">
+        </div>
+    </form>
+</div>
       
    
     </main>
