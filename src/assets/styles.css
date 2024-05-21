@@ -224,7 +224,7 @@ h4 a:hover {
 }
 
 .hero__content span a:hover {
-    color:#000;
+  color: #000;
 }
 
 .hero__content h1 span {
@@ -336,6 +336,15 @@ h4 a:hover {
 .recipes-list__info {
   padding: 0px 25px;
   line-height: 0.005;
+}
+
+.recipes-list__info a {
+  color: white;
+  text-decoration: none;
+}
+
+.recipes-list__info a:hover {
+  color: #000;
 }
 
 .recipes-list__rating i {
@@ -662,7 +671,7 @@ h3 {
 footer {
   background-color: #ff461300;
   color: white;
-  padding: 20px;
+  /*padding: 20px;*/
   position: static;
   display: block;
   left: 0;
@@ -671,6 +680,7 @@ footer {
   text-align: center;
   flex: 1 0 auto;
   flex-shrink: 0;
+  text-align: center;
 }
 
 p {
@@ -783,4 +793,47 @@ body {
   line-height: normal;
   padding-left: 160px;
   padding-right: 160px;
+}
+
+.contact__title {
+  text-align: center;
+}
+
+.contact__form input,
+.contact__form textarea {
+  border: none;
+  padding: 0 30px;
+  margin-bottom: 25px;
+  width: 100%;
+  height: 50px;
+
+  background-color: #ff4613;
+
+  font-size: 14px;
+  font-style: italic;
+  font-family: livvic;
+}
+
+h2.contact__title {
+  margin-bottom: 70px;
+  font-size: 24px;
+}
+
+textarea.contact__form-message {
+  padding: 30px;
+  height: 200px;
+  resize: vertical;
+}
+
+button.contact__form-btn {
+  border: none;
+  padding: 18px 60px;
+
+  color: #fff;
+  background-color: #ff4613;
+
+  font-size: 14px;
+  font-family: inherit;
+
+  cursor: pointer;
 }
