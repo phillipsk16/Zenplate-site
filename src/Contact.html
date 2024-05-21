@@ -5,77 +5,47 @@
     {% include 'header' %}
     <main id="main-content">
 
-      <h1 class="page-two-recipes">RECIPES</h1>
-      <h2 class="page-two-newest-recipes">Newest Recipes</h2>
-    <section class="recipes-list">
-      <div class="row">
-                    <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-easing="ease-in-out"
-                        data-aos-delay="100">
-                        <div class="recipes-list__item">
-                            <img src="https://images.unsplash.com/photo-1632552544460-055cff0d29a5?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
-                            <div class="recipes-list__info-background">
-                                <div class="recipes-list__info">
-                                    <h3>Smash Burger</h3>
-                                    <div class="recipes-list__rating">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
+      <h1 class="page-two-recipes">CONTACT</h1>
+      <section class="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-8" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-delay="0">
+                        <h2 class="contact__title">Leave a comment</h2>
+                        <form class="contact__form">
+                            <div class="row">
+                                <div class="col-12 col-md-6 col-lg-6">
+                                    <div class="form-group">
+                                        <input required type="text" class="conatact__form-name" placeholder="Name">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-6">
+                                    <div class="form-group">
+                                        <input required type="email" class="contact__form-email" placeholder="E-mail">
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <input type="text" class="contact__form-subject" placeholder="Subject">
+                                    </div>
 
-                    <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-easing="ease-in-out"
-                        data-aos-delay="200">
-                        <div class="recipes-list__item">
-                            <img src="https://images.unsplash.com/photo-1594053045614-f4ed95b84b9a?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
-                            <div class="recipes-list__info-background">
-                                <div class="recipes-list__info">
-                                    <h3>Smoothie Bowl</h3>
-                                    <div class="recipes-list__rating">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
+                                    <div class="form-group">
+                                        <textarea required class="contact__form-message" name="subject" id="subject"
+                                            cols="30" rows="10" placeholder="Message"></textarea>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <button class="contact__form-btn">Send</button>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </form>
                     </div>
-
-                    <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-easing="ease-in-out"
-                        data-aos-delay="300">
-                        <div class="recipes-list__item">
-                            <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
-                            <div class="recipes-list__info-background">
-                                <div class="recipes-list__info">
-                                    <h3>Salmon Salad</h3>
-                                    <div class="recipes-list__rating">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-</section>
-
-<div class="pagination">
-        <ul>
-            <li><a href="#">1</a></li>
-            <li><a href="#">2</a></li>
-            <li><a href="#">3</a></li>
-            <!-- Add more page numbers as needed -->
-        </ul>
-    </div>
+                </div>
+            </div>
+        </section>
+      
    
     </main>
     {% include 'footer' %}
